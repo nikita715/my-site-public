@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Nikita Stepochkin</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Nikita Stepochkin</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TV Show Recommendations Pipeline</title>
+      <link>http://localhost:1313/projects/recommendations_pipeline/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/recommendations_pipeline/</guid>
+      <description>Pipeline for constant provision of TV show recommendations based on the flow of user ratings</description>
+    </item>
+    <item>
+      <title>Plotly JSON Visualizer</title>
+      <link>http://localhost:1313/projects/plotly_json_visulaizer/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/plotly_json_visulaizer/</guid>
+      <description>Online visualizer of Plotly.js graphs in Plotly JSON visualization schema format</description>
+    </item>
+    <item>
+      <title>condition-spec</title>
+      <link>http://localhost:1313/projects/condition_spec/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/condition_spec/</guid>
+      <description>Collection of value objects that can be used for search in abstract data source</description>
+    </item>
+    <item>
+      <title>Gitplag</title>
+      <link>http://localhost:1313/projects/gitplag/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/gitplag/</guid>
+      <description>System for analyzing the similarity of programming code in solutions to programming tasks stored in Git repositories</description>
+    </item>
+  </channel>
+</rss>

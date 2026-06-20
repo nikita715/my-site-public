@@ -1,0 +1,72 @@
+<!DOCTYPE html><html lang="en"> <head><script>
+      (function () {
+        try {
+          var l = localStorage.getItem("lang");
+          if (l !== "ru" && l !== "en") l = "en";
+        } catch (e) {
+          l = "en";
+        }
+        document.documentElement.dataset.lang = l;
+        document.documentElement.lang = l;
+
+        var t;
+        try {
+          t = localStorage.getItem("theme");
+        } catch (e) {}
+        if (t !== "light" && t !== "dark") {
+          t = matchMedia("(prefers-color-scheme: light)").matches
+            ? "light"
+            : "dark";
+        }
+        document.documentElement.dataset.theme = t;
+      })();
+    </script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>About · nikst.dev</title><meta name="description" content="About Nikita Stepochkin"><link rel="icon" type="image/png" href="/favicon.png"><link rel="canonical" href="https://nikst.dev/about/"><meta property="og:type" content="website"><meta property="og:title" content="About · nikst.dev"><meta property="og:description" content="About Nikita Stepochkin"><meta property="og:url" content="https://nikst.dev/about/"><meta name="twitter:card" content="summary_large_image"><link rel="alternate" type="application/rss+xml" title="nikst.dev" href="/rss.xml"><script>(function(){const counterId = 98653167;
+
+        {`
+          (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+          ym(counterId, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });
+        `}
+      })();</script><noscript><div><img src="https://mc.yandex.ru/watch/98653167" style="position:absolute; left:-9999px;" alt=""></div></noscript><link rel="stylesheet" href="/_astro/about.eb-ADnAW.css">
+<style>.badges[data-astro-cid-uqlkfesa]{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}.badges[data-astro-cid-uqlkfesa] img[data-astro-cid-uqlkfesa]{height:110px;width:auto;opacity:.55;transition:opacity .2s ease,transform .2s ease;border-radius:0}.badges[data-astro-cid-uqlkfesa] img[data-astro-cid-uqlkfesa]:hover{opacity:1;transform:translateY(-2px)}.tech-stack[data-astro-cid-lfow52u2]{display:flex;flex-direction:column;gap:22px;margin:18px 0}.tech-group-title[data-astro-cid-lfow52u2]{font-family:var(--font-mono);font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}.tech-grid[data-astro-cid-lfow52u2]{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px}.tech-item[data-astro-cid-lfow52u2]{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:1;padding:12px;background:var(--surface);border:1px solid var(--border);border-radius:10px;transition:transform .18s ease,border-color .18s ease,background .18s ease}.tech-item[data-astro-cid-lfow52u2]:hover{transform:translateY(-2px);border-color:var(--accent);background:var(--surface-hover)}.tech-item[data-astro-cid-lfow52u2] img[data-astro-cid-lfow52u2]{width:100%;height:100%;object-fit:contain;border-radius:0}.tech-item[data-astro-cid-lfow52u2]:after{content:attr(data-tooltip);position:absolute;bottom:calc(100% + 6px);left:50%;transform:translate(-50%) translateY(4px);background:var(--text);color:var(--bg);padding:4px 8px;border-radius:4px;font-size:13px;font-weight:500;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .15s ease,transform .15s ease;z-index:10}.tech-item[data-astro-cid-lfow52u2]:hover:after{opacity:1;transform:translate(-50%) translateY(0)}
+</style></head> <body> <header class="site-header" data-astro-cid-3ef6ksr2> <div class="inner" data-astro-cid-3ef6ksr2> <div class="left" data-astro-cid-3ef6ksr2> <a href="/" class="brand bare" data-astro-cid-3ef6ksr2>nikst.dev</a> <div class="social-wrap" data-astro-cid-3ef6ksr2><div class="social" data-astro-cid-dv46nlzh> <a href="https://t.me/niksteptg" aria-label="Telegram" class="social-link bare" target="_blank" rel="noopener" data-astro-cid-dv46nlzh> <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.94 4.36 18.6 20.43c-.25 1.13-.93 1.4-1.87.87l-5.18-3.82-2.5 2.4c-.27.28-.51.51-1.04.51l.37-5.25 9.55-8.63c.42-.37-.09-.58-.65-.21L5.5 13.42.43 11.83c-1.1-.34-1.13-1.1.23-1.63L20.5 2.74c.92-.34 1.73.22 1.44 1.62z"/></svg> </a><a href="https://github.com/nikita715" aria-label="GitHub" class="social-link bare" target="_blank" rel="noopener" data-astro-cid-dv46nlzh> <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.27-.01-1-.02-1.96-3.2.69-3.88-1.54-3.88-1.54-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.08 0 4.42-2.7 5.39-5.26 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.81-.01 3.19 0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg> </a><a href="https://www.linkedin.com/in/nikita-stepochkin" aria-label="LinkedIn" class="social-link bare" target="_blank" rel="noopener" data-astro-cid-dv46nlzh> <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.86-3.04-1.86 0-2.15 1.45-2.15 2.95v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.86 3.37-1.86 3.6 0 4.27 2.37 4.27 5.45v6.3zM5.34 7.43A2.06 2.06 0 1 1 5.34 3.3a2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg> </a> </div> </div> </div> <nav class="nav" data-astro-cid-3ef6ksr2> <a href="/about/" class="nav-item active" data-astro-cid-3ef6ksr2> <span data-l="en">about</span><span data-l="ru">обо мне</span> </a><a href="/posts/" class="nav-item" data-astro-cid-3ef6ksr2> <span data-l="en">posts</span><span data-l="ru">статьи</span> </a><a href="/projects/" class="nav-item" data-astro-cid-3ef6ksr2> <span data-l="en">projects</span><span data-l="ru">проекты</span> </a><a href="/apps/" class="nav-item" data-astro-cid-3ef6ksr2> <span data-l="en">apps</span><span data-l="ru">приложения</span> </a> <div class="btn-group" data-astro-cid-3ef6ksr2> <button type="button" class="gbtn" id="lang-toggle" aria-label="Switch language" data-astro-cid-3ef6ksr2> <span data-lang-opt="en" data-astro-cid-3ef6ksr2>EN</span><span data-lang-opt="ru" data-astro-cid-3ef6ksr2>RU</span> </button> <button type="button" class="gbtn" id="theme-toggle" aria-label="Toggle theme" data-astro-cid-3ef6ksr2> <svg class="sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" data-astro-cid-3ef6ksr2><circle cx="12" cy="12" r="4" data-astro-cid-3ef6ksr2></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" data-astro-cid-3ef6ksr2></path></svg> <svg class="moon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true" data-astro-cid-3ef6ksr2><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" data-astro-cid-3ef6ksr2></path></svg> </button> </div> </nav> </div> </header> <script>
+  document.getElementById("lang-toggle")?.addEventListener("click", () => {
+    var next = document.documentElement.dataset.lang === "ru" ? "en" : "ru";
+    document.documentElement.dataset.lang = next;
+    document.documentElement.lang = next;
+    try {
+      localStorage.setItem("lang", next);
+    } catch (e) {}
+  });
+
+  document.getElementById("theme-toggle")?.addEventListener("click", () => {
+    var root = document.documentElement;
+    var next = root.dataset.theme === "light" ? "dark" : "light";
+    root.classList.add("theme-switching");
+    root.dataset.theme = next;
+    try {
+      localStorage.setItem("theme", next);
+    } catch (e) {}
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        root.classList.remove("theme-switching");
+      });
+    });
+  });
+</script>  <main class="page">  <h1 class="page-title"><span data-l="en">About Me</span><span data-l="ru">Обо мне</span></h1> <p data-l="en">
+I am a software engineer with over eight years of experience in enterprise
+    development across various industries, including banking, e-commerce, IoT
+    and ML.
+</p> <p data-l="ru">
+Я инженер-программист с более чем восьмилетним опытом корпоративной разработки
+    в разных отраслях: банкинг, электронная коммерция, IoT и машинное обучение.
+</p> <p data-l="en">
+I specialize in building high-load systems, primarily using Kotlin and
+    Spring Boot.
+</p> <p data-l="ru">
+Специализируюсь на построении высоконагруженных систем, в основном на Kotlin
+    и Spring Boot.
+</p> <h2><span data-l="en">Certifications</span><span data-l="ru">Сертификаты</span></h2> <div class="badges" data-astro-cid-uqlkfesa> <a href="https://www.credential.net/c79ec05c-8af9-4219-be64-18f8208b2dd2" target="_blank" rel="noopener" class="bare" data-astro-cid-uqlkfesa> <img src="/images/badges/ccdak.png" alt="Confluent Certified Developer for Apache Kafka" loading="lazy" data-astro-cid-uqlkfesa> </a><a href="https://www.credly.com/badges/43ed8c59-59c6-42ca-9d57-84ceba741920" target="_blank" rel="noopener" class="bare" data-astro-cid-uqlkfesa> <img src="/images/badges/ckad.png" alt="Certified Kubernetes Application Developer" loading="lazy" data-astro-cid-uqlkfesa> </a> </div>  <h2><span data-l="en">Tech Stack</span><span data-l="ru">Технологии</span></h2> <div class="tech-stack" data-astro-cid-lfow52u2> <div class="tech-group" data-astro-cid-lfow52u2> <div class="tech-group-title" data-astro-cid-lfow52u2><span data-l="en">Languages</span><span data-l="ru">Языки</span></div> <div class="tech-grid" data-astro-cid-lfow52u2> <div class="tech-item" data-tooltip="Kotlin" data-astro-cid-lfow52u2> <img src="/images/tech_stack/kotlin.svg" alt="Kotlin" loading="lazy" data-astro-cid-lfow52u2> </div><div class="tech-item" data-tooltip="Python" data-astro-cid-lfow52u2> <img src="/images/tech_stack/python.svg" alt="Python" loading="lazy" data-astro-cid-lfow52u2> </div> </div> </div><div class="tech-group" data-astro-cid-lfow52u2> <div class="tech-group-title" data-astro-cid-lfow52u2><span data-l="en">Frameworks & Build</span><span data-l="ru">Фреймворки и сборка</span></div> <div class="tech-grid" data-astro-cid-lfow52u2> <div class="tech-item" data-tooltip="Spring" data-astro-cid-lfow52u2> <img src="/images/tech_stack/spring.svg" alt="Spring" loading="lazy" data-astro-cid-lfow52u2> </div><div class="tech-item" data-tooltip="Gradle" data-astro-cid-lfow52u2> <img src="/images/tech_stack/gradle.svg" alt="Gradle" loading="lazy" data-astro-cid-lfow52u2> </div> </div> </div><div class="tech-group" data-astro-cid-lfow52u2> <div class="tech-group-title" data-astro-cid-lfow52u2><span data-l="en">Messaging</span><span data-l="ru">Очереди сообщений</span></div> <div class="tech-grid" data-astro-cid-lfow52u2> <div class="tech-item" data-tooltip="Kafka" data-astro-cid-lfow52u2> <img src="/images/tech_stack/kafka.svg" alt="Kafka" loading="lazy" data-astro-cid-lfow52u2> </div><div class="tech-item" data-tooltip="NATS" data-astro-cid-lfow52u2> <img src="/images/tech_stack/nats.svg" alt="NATS" loading="lazy" data-astro-cid-lfow52u2> </div> </div> </div><div class="tech-group" data-astro-cid-lfow52u2> <div class="tech-group-title" data-astro-cid-lfow52u2><span data-l="en">Data</span><span data-l="ru">Данные</span></div> <div class="tech-grid" data-astro-cid-lfow52u2> <div class="tech-item" data-tooltip="PostgreSQL" data-astro-cid-lfow52u2> <img src="/images/tech_stack/postgres.svg" alt="PostgreSQL" loading="lazy" data-astro-cid-lfow52u2> </div><div class="tech-item" data-tooltip="Redis" data-astro-cid-lfow52u2> <img src="/images/tech_stack/redis.svg" alt="Redis" loading="lazy" data-astro-cid-lfow52u2> </div><div class="tech-item" data-tooltip="ClickHouse" data-astro-cid-lfow52u2> <img src="/images/tech_stack/clickhouse.svg" alt="ClickHouse" loading="lazy" data-astro-cid-lfow52u2> </div> </div> </div><div class="tech-group" data-astro-cid-lfow52u2> <div class="tech-group-title" data-astro-cid-lfow52u2><span data-l="en">Observability</span><span data-l="ru">Мониторинг</span></div> <div class="tech-grid" data-astro-cid-lfow52u2> <div class="tech-item" data-tooltip="Prometheus" data-astro-cid-lfow52u2> <img src="/images/tech_stack/prometheus.svg" alt="Prometheus" loading="lazy" data-astro-cid-lfow52u2> </div><div class="tech-item" data-tooltip="Grafana" data-astro-cid-lfow52u2> <img src="/images/tech_stack/grafana.svg" alt="Grafana" loading="lazy" data-astro-cid-lfow52u2> </div> </div> </div><div class="tech-group" data-astro-cid-lfow52u2> <div class="tech-group-title" data-astro-cid-lfow52u2><span data-l="en">DevOps</span><span data-l="ru">DevOps</span></div> <div class="tech-grid" data-astro-cid-lfow52u2> <div class="tech-item" data-tooltip="GitLab" data-astro-cid-lfow52u2> <img src="/images/tech_stack/gitlab.svg" alt="GitLab" loading="lazy" data-astro-cid-lfow52u2> </div><div class="tech-item" data-tooltip="Kubernetes" data-astro-cid-lfow52u2> <img src="/images/tech_stack/kubernetes.svg" alt="Kubernetes" loading="lazy" data-astro-cid-lfow52u2> </div><div class="tech-item" data-tooltip="Helm" data-astro-cid-lfow52u2> <img src="/images/tech_stack/helm.svg" alt="Helm" loading="lazy" data-astro-cid-lfow52u2> </div> </div> </div> </div>   </main> <footer class="site-footer" data-astro-cid-sz7xmlte> <div class="inner" data-astro-cid-sz7xmlte> <span data-astro-cid-sz7xmlte>© 2026 <span data-l="en">Nikita Stepochkin</span><span data-l="ru">Никита Степочкин</span></span> <span class="sep" data-astro-cid-sz7xmlte>·</span> <a href="/privacy/" data-astro-cid-sz7xmlte><span data-l="en">Privacy Policy</span><span data-l="ru">Политика конфиденциальности</span></a> </div> </footer>  </body></html>
